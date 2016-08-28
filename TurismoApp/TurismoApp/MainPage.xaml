@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:TurismoApp"
              x:Class="TurismoApp.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+
+  <Button Text="Iniciar Sesión con Facebook"
+          VerticalOptions="Center"
+          HorizontalOptions="Center" >
+  </Button>
+  <TextCell text="Hola"></TextCell>
+  <Button Text="Iniciar Sesión" 
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" >
+  </Button>
+  
 
 </ContentPage>
